@@ -1,44 +1,31 @@
-# python-getting-started
+## Przygotowanie
+* Python 3.5.1 [link](https://www.python.org/downloads/)
 
-A barebones Python app, which can easily be deployed to Heroku.
+## Pobranie projektu
 
-This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
+Uruchamiasz Windows PowerShell. Przechodzisz to wybranego folderu. W moim przypadki D:\PYTHON\test.
+wpisujesz `git init` i następnie `git pull https://github.com/zatto84/zalien.git`.
 
-## Running Locally
+## Instalacja virtualenvy
 
-Make sure you have Python [installed properly](http://install.python-guide.org).  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/) and [Postgres](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup).
+W PowerShell `pip install virtualenv`
 
-```sh
-$ git clone git@github.com:heroku/python-getting-started.git
-$ cd python-getting-started
+## Uruchomienie virtual envy
 
-$ pip install -r requirements.txt
+Za pomocą powershell wpisujesz ` virtualenv.exe envy`
 
-$ createdb python_getting_started
+## Przejście do środowiska wirtualnego
 
-$ python manage.py migrate
-$ python manage.py collectstatic
+Z konsoli `\envy\Scripts\activate`
 
-$ heroku local
-```
+## Instalacja zależności 
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+Przejdź do folderu test i wpisz konsoli `pip install -r .\requirements.txt`
+Jeden z plików może się nie pobrać automatycznie. Jeżeli tak się stanie to zainstaluj go ręcznie. `pip install git+https://github.com/nwcell/psycopg2-windows.git@win64-py34#egg=psycopg2`
+[Dla innych wersji ](https://github.com/nwcell/psycopg2-windows)
 
-## Deploying to Heroku
+## Dodawanie zależności
 
-```sh
-$ heroku create
-$ git push heroku master
+**Jeżeli z jakiegoś powodu dodasz coś do wirtualki nie zapomnij dodać tego do pliku requirements.txt**
 
-$ heroku run python manage.py migrate
-$ heroku open
-```
-or
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Documentation
-
-For more information about using Python on Heroku, see these Dev Center articles:
-
-- [Python on Heroku](https://devcenter.heroku.com/categories/python)
+W tym celu będąc w folderze test musisz wpisać `pip freeze > .\requirements.txt`
