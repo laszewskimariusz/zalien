@@ -1,84 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2add004f-c67c-4622-b201-44761d00f680" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gettingstarted/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gettingstarted/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gettingstarted/static/humans.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gettingstarted/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gettingstarted/wsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/migrations/0002_delete_greeting.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/css/freelancer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/less/spinning.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/scss/_spinning.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/img/portfolio/cabin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/img/portfolio/cake.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/img/portfolio/circus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/img/portfolio/game.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/img/portfolio/safe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/img/portfolio/submarine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/img/profile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/js/cbpAnimatedHeader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/js/cbpAnimatedHeader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/js/classie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/js/contact_me.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/js/freelancer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/js/jqBootstrapValidation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/lang-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/less/freelancer.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/static/mail/contact_me.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/templates/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/views.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
-    </list>
+    <list default="true" id="2add004f-c67c-4622-b201-44761d00f680" name="Default" comment="" />
     <ignored path="python-getting-started.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -427,15 +350,23 @@
       <option name="presentableId" value="Default" />
       <updated>1461682206166</updated>
     </task>
+    <task id="LOCAL-00001" summary="Uruchomienie projektu na Heroku">
+      <created>1461686523931</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1461686523931</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -473,6 +404,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Uruchomienie projektu na Heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uruchomienie projektu na Heroku" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
