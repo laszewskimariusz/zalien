@@ -1,6 +1,6 @@
 [![Stories in Ready](https://badge.waffle.io/zatto84/zalien.svg?label=ready&title=Ready)](http://waffle.io/zatto84/zalien)
 [![Stories in In Progress](https://badge.waffle.io/zatto84/upsite.svg?label=in%20progress&title=In%20Progress)](http://waffle.io/zatto84/zalien)
-[![Throughput Graph](https://graphs.waffle.io/zatto84/zalien/throughput.svg)](https://waffle.io/zatto84/zalien/metrics/throughput)
+
 
 
 ## Przygotowanie
