@@ -1,3 +1,6 @@
+[![Throughput Graph](https://graphs.waffle.io/zatto84/zalien/throughput.svg)](https://waffle.io/zatto84/zalien/metrics/throughput)
+[![Stories in Ready](https://badge.waffle.io/zatto84/zalien.svg?label=ready&title=Ready)](http://waffle.io/zatto84/zalien)
+
 ## Przygotowanie
 * Python 3.5.1 [link](https://www.python.org/downloads/)
 
