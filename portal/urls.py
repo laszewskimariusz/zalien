@@ -1,9 +1,9 @@
 from django.conf.urls import url
 
-import login.views
+import portal.views
 
 urlpatterns = [
 
-    url(r'^$', login.views.login, name='login'),
+    url(r'^$', portal.views.home, name='home'),
 
 ]
