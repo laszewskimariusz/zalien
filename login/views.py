@@ -1,11 +1,11 @@
 from django.shortcuts import render
 
 
-def home(request):
+def login(request):
 
     title = "Home"
     context = {
         "title": title,
 
     }
-    return render(request, "home.html", context)
+    return render(request, "login.html", context)
