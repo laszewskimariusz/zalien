@@ -39,9 +39,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'portal',
     'games',
-=======
 
->>>>>>> 45a1ee1d7b482b93e4bbe2eb2fbe06ea9a8a9f56
+
 )
 
 MIDDLEWARE_CLASSES = (
