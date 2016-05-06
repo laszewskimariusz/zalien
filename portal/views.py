@@ -1,11 +1,9 @@
 from django.shortcuts import render
 
 
-
-
 def home(request):
 
-    title = "Hi world"
+    title = "Home"
     context = {
         "title": title,
 
