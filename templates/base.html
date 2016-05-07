@@ -96,13 +96,25 @@
     <!-- Header -->
     <header>
         <div class="container">
+            {% if request.user.is_authenticated%}
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in">ZalienCraft</div>
+                <div class="intro-heading">Miło cię znów widzieć {{ request.user.username }}</div>
+                <a href="#services" class="page-scroll btn btn-xl">LIVE</a>
             </div>
+            {% else %}
+            <div class="intro-text">
+                <div class="intro-lead-in">Witaj</div>
+                <div class="intro-heading">Musisz być zalogowany żeby mieć dostęp do zawartości </div>
+            </div>
+             {% endif %}
+
         </div>
     </header>
+
+           {% block content %}
+       {% endblock %}
+
 
 
     <!-- jQuery -->
@@ -124,8 +136,10 @@
     <script src="js/agency.js"></script>
 
 
-       {% block content %}
-       {% endblock %}
+
+
+
+
 
 
 
