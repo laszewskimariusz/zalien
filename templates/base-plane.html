@@ -70,11 +70,22 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
+                    {% if request.user.is_authenticated%}
+                    <li>
+                        <a class="page-scroll" href="/profile">{{ request.user.username }}</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/accounts/logout/">Logout</a>
+                    </li>
+
+                    {% else %}
+                    <li>
                         <a class="page-scroll" href="/accounts/login/">Login</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/accounts/register/">Rejestracja</a>
                     </li>
+                    {% endif %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
