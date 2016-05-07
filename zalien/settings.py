@@ -39,7 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'portal',
     'games',
-    'login',
+    'userprofile',
 
     # 3rd pary Zatto
     'django.contrib.sites',
