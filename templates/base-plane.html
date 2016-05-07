@@ -41,7 +41,7 @@
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default ">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -69,7 +69,7 @@
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
-
+                    <li>
                     {% if request.user.is_authenticated%}
                     <li>
                         <a class="page-scroll" href="/profile">{{ request.user.username }}</a>
@@ -94,27 +94,6 @@
     </nav>
 
     <!-- Header -->
-    <header>
-        <div class="container">
-            {% if request.user.is_authenticated%}
-            <div class="intro-text">
-                <div class="intro-lead-in">ZalienCraft</div>
-                <div class="intro-heading">Miło cię znów widzieć {{ request.user.username }}</div>
-                <a href="#services" class="page-scroll btn btn-xl">LIVE</a>
-            </div>
-            {% else %}
-            <div class="intro-text">
-                <div class="intro-lead-in">Witaj</div>
-                <div class="intro-heading">Musisz być zalogowany żeby mieć dostęp do zawartości </div>
-            </div>
-             {% endif %}
-
-        </div>
-    </header>
-
-           {% block content %}
-       {% endblock %}
-
 
 
     <!-- jQuery -->
@@ -136,10 +115,8 @@
     <script src="js/agency.js"></script>
 
 
-
-
-
-
+       {% block content %}
+       {% endblock %}
 
 
 
@@ -152,7 +129,7 @@
    <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-sm-6 col-md-4 col-md-offset-2 col-lg-5 col-lg-offset-0">
                     <span class="copyright">Copyright &copy; Your Website 2014</span>
                 </div>
                 <div class="col-md-4">
@@ -165,7 +142,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <ul class="list-inline quicklinks">
                         <li><a href="#">Privacy Policy</a>
                         </li>

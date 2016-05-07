@@ -39,7 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'portal',
     'games',
-    'login',
+    'userprofile',
 
     # 3rd pary Zatto
     'django.contrib.sites',
@@ -158,6 +158,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 ACCOUNT_ACTIVATION_DAYS = 7
 REGISTRATION_AUTO_LOGIN = True
-
+SITE_ID = 1
+LOGIN_REDIRECT_URL = '/profile'
 
 
