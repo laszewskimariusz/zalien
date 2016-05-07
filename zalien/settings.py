@@ -32,7 +32,7 @@ DEBUG = True
 
 INSTALLED_APPS = (
     'django.contrib.admin',
-    'django.contrib.auth',
+
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
@@ -40,6 +40,12 @@ INSTALLED_APPS = (
     'portal',
     'games',
     'login',
+
+    # 3rd pary Zatto
+    'django.contrib.sites',
+    'registration', #should be immediately above 'django.contrib.auth'
+    'django.contrib.auth',
+    'crispy_forms',
 
 
 )
@@ -138,10 +144,20 @@ STATICFILES_DIRS = [
 ]
 
 
-
-
-
-
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+#### Wszystkie dodatkowe ustawienia
+
+
+###### Cripsy Forms #####
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
+
+#####  REDUX #######
+
+ACCOUNT_ACTIVATION_DAYS = 7
+REGISTRATION_AUTO_LOGIN = True
+
+
+
