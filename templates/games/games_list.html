@@ -1,0 +1,31 @@
+{% extends "base-plane.html" %}
+
+{% block content %}
+
+
+
+<div class="container">
+  <h2>Lista gier</h2>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Tytuł</th>
+        <th>Gatunek</th>
+        <th>Okładka</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for Games in object_list %}
+
+      <tr>
+        <td>{{Games.title}}</td>
+        <td>{{Games.game_type}}</td>
+        <td><img src="/media/{{Games.cover}}" class="img-rounded" alt= "{{Games.title}}" height="110" width="110"></td>
+      </tr>
+      {% endfor %}
+
+    </tbody>
+  </table>
+</div>
+{% endblock %}
