@@ -138,6 +138,9 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, "static", "static_root")
 
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "static", "media_root")
+
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static", "my_static"),
 
@@ -160,5 +163,3 @@ ACCOUNT_ACTIVATION_DAYS = 7
 REGISTRATION_AUTO_LOGIN = True
 SITE_ID = 1
 LOGIN_REDIRECT_URL = '/profile'
-
-
