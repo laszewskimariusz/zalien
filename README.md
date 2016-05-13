@@ -1,5 +1,6 @@
 [![Stories in Ready](https://badge.waffle.io/zatto84/zalien.svg?label=ready&title=Ready)](http://waffle.io/zatto84/zalien)
 [![Stories in In Progress](https://badge.waffle.io/zatto84/upsite.svg?label=in%20progress&title=In%20Progress)](http://waffle.io/zatto84/zalien)
+[![Code Issues](https://www.quantifiedcode.com/api/v1/project/2a71c7cf1bf14064a5227561e2772c6b/badge.svg)](https://www.quantifiedcode.com/app/project/2a71c7cf1bf14064a5227561e2772c6b)
 
 
 
