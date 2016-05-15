@@ -1,5 +1,6 @@
 {% load i18n %}
 <!doctype html>
+
 <html lang="en">
   <head>
     <title>{{ site.name }} {% trans "registration" %}</title>
@@ -8,29 +9,27 @@
 <body>
 <p>
     {% blocktrans with site_name=site.name %}
-<h2>Witaj</h2>
-<h2>Dziękujemy za rejestrację!</h2>
-
-    Już tylko jeden krok dzieli Cię od dołączenia do społeczności Zalien.
-
-
+    You (or someone pretending to be you) have asked to register an account at
+    {{ site_name }}.  If this wasn't you, please ignore this email
+    and your address will be removed from our records.
     {% endblocktrans %}
 </p>
-<a href="http://{{site.domain}}{% url 'registration_activate' activation_key %}">
-    {{site.domain}}{% url 'registration_activate' activation_key %}
-</a>
 <p>
     {% blocktrans %}
-    Jeśli to nie Ty próbowałeś się u nas zarejestrować nie reaguj.<br>
-
-    Link aktywacyjny wygaśnie za {{ expiration_days }} dni.
+    To activate this account, please click the following link within the next
+    {{ expiration_days }} days:
     {% endblocktrans %}
 </p>
 
 <p>
+    <a href="http://{{site.domain}}{% url 'registration_activate' activation_key %}">
+        {{site.domain}}{% url 'registration_activate' activation_key %}
+    </a>
+</p>
+<p>
     {% blocktrans with site_name=site.name %}
-    Pozdrawimay Administracja <a href="{{ site_name }}">{{ site_name }}</a>
-
+    Sincerely,
+    {{ site_name }} Management
     {% endblocktrans %}
 </p>
 </body>

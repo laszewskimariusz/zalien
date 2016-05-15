@@ -1,47 +1,26 @@
 {% load i18n %}
-<!doctype html>
-<html lang="en">
-  <head>
-    <title>{{ site.name }} {% trans "registration" %}</title>
-</head>
+{% blocktrans with site_name=site.name %}
+You (or someone pretending to be you) have asked to register an account at
+{{ site_name }}.  If this wasn't you, please ignore this email
+and your address will be removed from our records.
+{% endblocktrans %}
+{% blocktrans %}
+To activate this account, please click the following link within the next
+{{ expiration_days }} days:
+{% endblocktrans %}
 
-<body>
-<p>
-    {% blocktrans with site_name=site.name %}
-<h2>Witaj</h2>
-<h2>Dziękujemy za rejestrację!</h2>
+http://{{site.domain}}{% url 'registration_activate' activation_key %}
 
-    Już tylko jeden krok dzieli Cię od dołączenia do społeczności Zalien.
-
-
-    {% endblocktrans %}
-</p>
-<a href="http://{{site.domain}}{% url 'registration_activate' activation_key %}">
-    {{site.domain}}{% url 'registration_activate' activation_key %}
-</a>
-<p>
-    {% blocktrans %}
-    Jeśli to nie Ty próbowałeś się u nas zarejestrować nie reaguj.<br>
-
-    Link aktywacyjny wygaśnie za {{ expiration_days }} dni.
-    {% endblocktrans %}
-</p>
-
-<p>
-    {% blocktrans with site_name=site.name %}
-    Pozdrawimay Administracja <a href="{{ site_name }}">{{ site_name }}</a>
-
-    {% endblocktrans %}
-</p>
-</body>
-
-</html>
+{% blocktrans with site_name=site.name %}
+Sincerely,
+{{ site_name }} Management
+{% endblocktrans %}
 
 
 {% comment %}
-**registration/activation_email.html**
+**registration/activation_email.txt**
 
-Used to generate the html body of the activation email. Should display a
+Used to generate the text body of the activation email. Should display a
 link the user can click to activate the account. This template has the
 following context:
 
